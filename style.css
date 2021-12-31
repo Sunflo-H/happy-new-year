@@ -3,28 +3,39 @@
     margin: 0;
 }
 
-/* html, body {
-    width: 100%;
+html,body {
     height: 100%;
-} */
+}
+
+.red {background:rgb(223 70 65);}
+.yellow{background:rgb(235 185 86);}
+.green{background: rgb(46 145 140);}
+.blue{background: rgb(23 81 117);}
 
 body {
     display: flex;
-    /* height: 100vh; */
     flex-direction: column;
     align-items: center;
-    /* background-color: rgb(223 29 70); */
-    color: #fff;
+    background-color: rgb(255 252 236);
+    color: #000;
     font-weight: bold;
     font-size: 2rem;
-    background-image: url(image/새해.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-header {
-    /* margin-top: 30px; */
-    
+.border {
+    width: 100%;
+    display: flex;
+}
+.border > div {
+    height: 20px;
+    flex-basis: 35%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+header {    
 }
 
 main {
