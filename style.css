@@ -37,7 +37,7 @@ body {
 }
 
 header {    
-    height: 220px;
+    height: 190px;
     line-height: 200px;
 }
 
@@ -150,11 +150,11 @@ main > img {
 }
 @keyframes open-image {
     from {
-        width: 300px;
+        width: 250px;
         top: 0%;
     }
     to {
-        width: 350px;
+        width: 270px;
         top: -25px;
     }
 }
