@@ -24,6 +24,7 @@ body {
 }
 
 .border {
+    position: fixed;
     width: 100%;
     display: flex;
 }
@@ -33,7 +34,6 @@ body {
 }
 
 .reverse {
-    position: fixed;
     bottom:0;
     flex-direction: row-reverse;
 }
