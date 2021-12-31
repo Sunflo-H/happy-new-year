@@ -24,21 +24,23 @@ body {
 }
 
 .border {
-    position: fixed;
     width: 100%;
     display: flex;
 }
 .border > div {
-    height: 20px;
+    height: 30px;
     flex-basis: 35%;
 }
 
 .reverse {
+    position: fixed;
     bottom:0;
     flex-direction: row-reverse;
 }
 
 header {    
+    height: 200px;
+    line-height: 200px;
 }
 
 main {
@@ -55,11 +57,12 @@ button{
 }
 
 .animation {
+    position: relative;
     animation-name: big;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-delay: 1s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: none;
     animation-play-state: running;
@@ -67,10 +70,12 @@ button{
 /* animation */
 @keyframes big {
     from {
-      width: 100px;
+        width: 300px;
+        top: 0%;
     }
     to {
-      width: 200px;
+        width: 350px;
+        top: -10%;
     }
 }
 
