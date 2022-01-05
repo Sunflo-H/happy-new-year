@@ -42,7 +42,7 @@ header {
 header img {
     width: 300px;
     position: relative;
-    top: -15%;
+    top: -35px;
     overflow: hidden;
 }
 main {
@@ -122,11 +122,11 @@ main > img {
 @keyframes big {
     from {
         width: 300px;
-        top: -25%;
+        top: -35px;
     }
     to {
         width: 350px;
-        top: -35%;
+        top: -60px;
     }
 }
 
