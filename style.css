@@ -41,11 +41,9 @@ header {
     border: 1px solid black;
 }
 header img {
-    /* width: 18vw; */
     width: 300px;
     position: relative;
     top: -15%;
-    /* border: 1px solid black; */
     overflow: hidden;
 }
 main {
@@ -76,8 +74,7 @@ main :nth-child(5){
 main > img {
     position: relative;
     width : 250px;
-    border: 1px solid black;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* animation */
@@ -159,12 +156,12 @@ main > img {
 }
 @keyframes open-image {
     from {
-        width: 200px;
+        width: 250px;
         top: 0%;
     }
     to {
-        width: 230px;
-        top: -25px;
+        width: 260px;
+        top: -10px;
     }
 }
 
