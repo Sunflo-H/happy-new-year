@@ -37,16 +37,22 @@ body {
 }
 
 header {    
-    height: 190px;
-    line-height: 200px;
-    /* border: 1px solid black; */
+    height: 20vh;
+    border: 1px solid black;
+    
 }
-
+header img {
+    border: 1px solid black;
+}
+main {
+    border: 1px solid black;
+}
 main > p{
     position: relative;
     /* top: 100px; */
     letter-spacing:5px;
     opacity: 0;
+    border: 1px solid black;
 }    
 main :nth-child(1){
     animation-delay: 1s;
@@ -67,6 +73,7 @@ main :nth-child(5){
 
 main > img {
     /* position: relative; */
+    border: 1px solid black;
 }
 
 /* animation */
