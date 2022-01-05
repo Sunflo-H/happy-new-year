@@ -82,7 +82,7 @@ main > img {
     animation-name: big;
     animation-duration: 1.5s;
     animation-timing-function: linear;
-    animation-delay: 1.5s;
+    animation-delay: 0.2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: none;
