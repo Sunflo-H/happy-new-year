@@ -41,7 +41,12 @@ header {
     border: 1px solid black;
 }
 header img {
-    border: 1px solid black;
+    width: 18vw;
+    /* width: 300px; */
+    position: relative;
+    top: -15%;
+    /* border: 1px solid black; */
+    overflow: hidden;
 }
 main {
     height: 70vh;
@@ -77,12 +82,11 @@ main > img {
 }
 
 /* animation */
-.animation-image {
-    position: relative;
+.animation-image {    
     animation-name: big;
     animation-duration: 1.5s;
     animation-timing-function: linear;
-    animation-delay: 1s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-fill-mode: none;
@@ -124,12 +128,12 @@ main > img {
 
 @keyframes big {
     from {
-        width: 300px;
-        top: 0%;
+        width: 18vw;
+        top: -15%;
     }
     to {
-        width: 350px;
-        top: -25px;
+        width: 21vw;
+        top: -25%;
     }
 }
 
