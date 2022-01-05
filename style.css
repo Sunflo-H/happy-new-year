@@ -39,11 +39,12 @@ body {
 header {    
     height: 190px;
     line-height: 200px;
+    /* border: 1px solid black; */
 }
 
 main > p{
     position: relative;
-    top: 100px;
+    /* top: 100px; */
     letter-spacing:5px;
     opacity: 0;
 }    
@@ -116,11 +117,11 @@ main > img {
 
 @keyframes big {
     from {
-        width: 350px;
+        width: 300px;
         top: 0%;
     }
     to {
-        width: 400px;
+        width: 350px;
         top: -25px;
     }
 }
